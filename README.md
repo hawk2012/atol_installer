@@ -5,4 +5,4 @@ It provides the user with a menu for choosing actions: installing a package for 
 
 The script uses functions to install and remove packages, and checks for package files before performing operations.
 
-The launch is performed via <code>chmod +x install_atol.sh</code> и <code>./install_atol.sh</code>. further launch only via <code>./install_atol.sh</code>. The installation uses sudo.
+The launch is performed via <code>chmod +x install_atol.sh</code> and <code>./install_atol.sh</code> commands. further launch only via <code>./install_atol.sh</code>. The installation uses sudo.
