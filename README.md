@@ -1,5 +1,5 @@
 # ATOL drivers installer
-This script is designed to install or remove the ATOL KKM software packages on Debian and Ubuntu Linux operating systems.
+This script is intended to install or remove the ATOL KKM software packages on Debian and Ubuntu Linux operating systems.
 
 It provides the user with a menu for choosing actions: installing a package for the AMD64 or i386 architecture, deleting a package for one of these architectures, or exiting the program.
 
