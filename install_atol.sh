@@ -70,10 +70,10 @@ echo "5. Выйти"
 read -p "Выберите пункт меню (1-5): " choice
 
 case "$choice" in
-    1) install "*_amd64.deb" amd64 ;;
-    2) install "*_i386.deb" i386 ;;
-    3) remove "*_amd64.deb" amd64 ;;
-    4) remove "*_i386.deb" i386 ;;
+    1) install "$(find . -name "*_amd64.deb")" amd64 ;;
+    2) install "$(find . -name "*_i386.deb")" i386 ;;
+    3) remove "$(find . -name "*_amd64.deb")" amd64 ;;
+    4) remove "$(find . -name "*_i386.deb")" i386 ;;
     5) exit ;;
     *) echo "Неверный выбор." ;;
 esac
