@@ -8,7 +8,7 @@ if [ -z "$soft_ver" ]; then
     exit 1
 fi
 
-cd ~/$soft_ver/installer/deb || exit 1
+cd ~/$soft_ver/installer/deb
 
 # Функция для установки пакетов
 function install() {
